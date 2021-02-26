@@ -1,0 +1,135 @@
+/*Generales*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    background-attachment: fixed;
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+/*Barra de navegacion*/
+/*Barra de navegacion*/
+header{
+    width: 100%;
+    height: 62px;
+    background: #EAE5E4;
+    position:fixed ;
+}
+header .contenido{   
+    margin-right: 700px;
+}
+ul, ol {
+    list-style:none;
+}
+#logo-barra{ 
+    width: 155px;    
+}
+
+.nav > li {
+    float:left;
+}
+
+.nav li a {
+    background-color: #EAE5E4;
+    color:black;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+}
+
+.nav li a:hover {
+    background-color:rgba(0, 0, 0, 0.4);
+}
+
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:120px;
+    text-align: center;
+}
+
+.nav li:hover > ul {
+    display:block;
+}
+
+.nav li ul li {
+    position:relative;
+}
+
+/*Contenido Principal*/
+#content{
+    min-height: 1100px;
+    width: 100%;
+    margin:0px auto;
+    box-shadow: 0px 0px  40px black;
+    background: white;
+    padding-top: 120px;
+}
+.cont-video{
+    padding: 60px;
+    margin-left: 80px;
+    
+}
+.container .image1{
+    float: left;
+    width: 49%;
+}
+.container .image1 img{
+    width: 100%;
+}
+.container .data1{
+    float: left;
+    width: 48%;
+    margin-left: 30px;
+    margin-top: 69px;
+}
+
+/*Footer*/
+footer{
+    box-shadow: 0px 0px  1px black;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    margin: 0px auto;
+    background-color:white;
+}
+footer .container{
+    padding-top: 60px;
+}
+
+/*Ordenes Servicio*/
+.cont{
+    width: 50%;
+    padding-left: 300px;
+    padding-bottom: 30px;
+}
+
+.cont form input[type="text"],
+form textarea{
+    width: 60%;
+    padding: 5px;
+}
+.form_error{
+    padding: 3px;
+    background: red;
+    color: white;
+    font-size: 13px;
+    margin-top: 5px;
+}
+form input[disabled]{
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+select{
+    width: 100%;
+}
+
+#boton{
+    padding: 5px;
+    margin-top: 5px;
+}
